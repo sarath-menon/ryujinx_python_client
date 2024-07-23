@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ryujinx-python-client"
+version = "0.1.0"
+description = ""
+authors = ["Sarath S Menon <sarathmenon.downey@gmail.com>"]
+readme = "README.md"
+# package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pillow = "^10.2.0"
+opencv-python = "^4.10.0.84"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
